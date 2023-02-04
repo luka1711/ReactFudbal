@@ -21,7 +21,7 @@ function Klubovi() {
     ))
 
     return (
-        <div>
+        <div className="row row-cols-1 row-cols-sm-3 g-4">
             {sviKlubovi}
         </div>
     );
