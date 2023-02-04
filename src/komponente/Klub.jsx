@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Klub({key,klub}) {
 
@@ -14,6 +15,10 @@ function Klub({key,klub}) {
                                 <h5><b>{klub.naziv}</b></h5>
                                 <h5>{klub.grad}</h5>
                                 <h6><i>{klub.predsednik}</i></h6>
+                                <Link to="/kontaktiraj">
+                                    <button className="btn btn-success btn-sm" type="button" >Kontaktiraj</button>
+                                </Link>
+                               
                             </div>
                         </div>
                     </div>
