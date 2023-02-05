@@ -1,4 +1,5 @@
 import React from 'react'
+import KontaktForma from './KontaktForma';
 
 function Kontakt()
  {
